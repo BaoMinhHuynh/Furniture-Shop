@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Detail</title>
+    <link rel="icon" href="images/Furnish2.png" type="image/png" sizes="16x16">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" />
+    <link rel="stylesheet" href="Css/styles.css">
+</head>
+<body>
+    <header class="p-3 bg-dark text-white">
+        <div class="container">
+          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none logoshop">
+              <img src="/images/Furnish2.png">
+             </a>
+    
+            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+              <li><a href="index.html" class="nav-link px-2 " style="color: white;">Home</a></li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-white" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Shop</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Tables</a></li>
+                  <li><a class="dropdown-item" href="#">Chairs</a></li>
+                  <li><a class="dropdown-item" href="#">Lamps</a></li>
+                  <li><a class="dropdown-item" href="Product.html">Sofas</a></li>
+                </ul>
+              </li>
+              <li><a href="#" class="nav-link px-2 text-white">Blog</a></li>
+              <li><a href="Contact.html" class="nav-link px-2 text-white">Contact</a></li>
+              <li><a href="About.html" class="nav-link px-2 text-white">About</a></li>
+            </ul>
+    
+            <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+              <input type="search" class="form-control form-control-dark" placeholder="Search..." aria-label="Search">
+            </form>
+    
+            <div class="text-end">
+              <a href="SignIn.html"><button type="button" class="btn btn-outline-light me-2"><i class="far fa-user"></i></button></a>
+              <button type="button" class="btn btn-outline-light " ><i class="fas fa-shopping-cart" ></i></button>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="bannerDetail">
+        <div class="text-banner-detail">
+          <h2>Product Detail</h2>
+        </div>
+      </div>
+    <div class="content-web">
+       <div class="content-detail">
+           <div class="img-detail">
+               <img src="images/Chair_Steel_Boucle_Walnut_Stain.jpg" class="img-product"  >
+               <div style="display: flex;justify-content: space-between; padding-top: 5px;">
+                <img src="images/productdetail1.jpg" class="img-product-type">
+                <img src="images/productdetail2.jpg" class="img-product-type">
+                <img src="images/productdetail3.jpg" class="img-product-type">
+               </div>
+               
+           </div>
+           <div>
+               <h3>Lars</h3>
+               <p>Accent Armchair, Mountain Grey & Oak Frame Fabric</p>
+               <p><b>$399</b></p>
+               <p>Size</p>
+               <div class="size-butt">
+                    <button class="butt-detail">M</button>
+                    <button class="butt-detail">L</button>
+                    <button class="butt-detail">XL</button>
+                    <button class="butt-detail">XXL</button>
+               </div>
+                <div class="flex-quanti">
+                    <p style="margin-bottom: 0px;padding-right: 10px;">Quantity</p>
+                    <div class="quantity">
+                        <button class="counter-descrease butt-quanti"><i class="fa fa-minus"></i></button>
+                        <input id="counter-number" type="number"  value="0" >
+                        <button class="counter-increase butt-quanti"><i class="fa fa-plus"></i></button>
+                     </div>
+                </div>
+                <div>
+                  <button class="btn btn-dark btn-md " type="submit">Add to cart</button>
+                  <button class="btn btn-dark btn-md" type="submit"><i class="far fa-heart"></i></button>
+                </div>
+                
+           </div>
+           
+       </div>
+       <div class="container mt-3">
+ 
+        <br>
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs">
+          <li class="nav-item">
+            <a class="nav-link active " data-toggle="tab" href="#home" style="color: black;">Description</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#menu1">Reviews (2)</a>
+          </li>
+        </ul>
+      
+        <!-- Tab panes -->
+        <div class="tab-content">
+          <div id="home" class="container tab-pane active" style="background-color: #FFF5F5;"><br>
+            <h3 style="font-weight: bold; color:#3057A7">DESCRIPTION</h3>
+            <div style="display: flex; justify-content: space-around;">
+              <div>
+                <h4>Scandi style</h4>
+                <p>Clean, minimal, relaxed. Lars boasts all we love about Scandinavian design. Available in a range of colours – it’s an accent chair that won’t overwhelm your space.</p>
+              </div>
+              <div>
+                <h4>Solid frame</h4>
+                <p>Not just a looker. Lars’ frame is expertly crafted from solid oak and finished with a deep walnut stain. Plus, check out those angled legs.</p>
+              </div>
+            </div>
+            <img src="images/productsize.jpg" style="width:700px;height: 500px;">
+          </div>
+          <div id="menu1" class="container tab-pane fade"><br>
+            <div class="review">
+              <div class="star-rate">
+              <div class="data-rate">
+                <div class="sum-rate">
+                  <p class="rate">4</p>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                  <p style="color: #828282;text-align: center;">81 all opinion</p>
+
+                </div>
+                <div class="user-rate">
+                  <div class="detail-rate">
+                    <span class="fa fa-star checked"></span>
+                    <p style="margin-bottom: 0px;">1</p>
+                    <div class="middle">
+                      <div class="bar-container">
+                        <div class="bar-1"></div>
+                      </div>
+                    </div>
+                   </div> 
+
+                  <div class="detail-rate">
+                    <span class="fa fa-star checked"></span>
+                    <p style="margin-bottom: 0px;">2</p>
+                    <div class="middle">
+                      <div class="bar-container">
+                        <div class="bar-2"></div>
+                      </div>
+                  </div>
+                  </div>
+                  <div class="detail-rate">
+                    <span class="fa fa-star checked"></span>
+                    <p style="margin-bottom: 0px;">3</p>
+                    <div class="middle">
+                      <div class="bar-container">
+                        <div class="bar-3"></div>
+                      </div>
+                  </div>
+                  </div>
+                  <div class="detail-rate">
+                    <span class="fa fa-star checked"></span>
+                    <p style="margin-bottom: 0px;">4</p>
+                    <div class="middle">
+                      <div class="bar-container">
+                        <div class="bar-4"></div>
+                      </div>
+                  </div>
+                  </div>
+                  <div class="detail-rate">
+                    <span class="fa fa-star checked"></span>
+                    <p style="margin-bottom: 0px;">5</p>
+                    <div class="middle">
+                      <div class="bar-container">
+                        <div class="bar-5"></div>
+                      </div>
+                  </div>
+                  
+                </div>  
+                  
+                </div>
+                
+              </div>
+           
+
+              
+            </div>
+            <div class="comment">
+              <div class="user-cmt">
+                <img class="user-img" src="images/avtar1.png">
+                <div style="padding-left: 10px;">
+                  <p style="margin-bottom: 0px; font-weight: bold;">John Doe</p>
+                  <span class="fa fa-star checked icon-star"></span>
+                  <span class="fa fa-star checked icon-star"></span>
+                  <span class="fa fa-star checked icon-star"></span>
+                  <span class="fa fa-star checked icon-star"></span>
+                  <span class="fa fa-star checked icon-star"></span>
+                  <p>Beautiful chair. Well constructed and sturdy, definitely worth the money, if not worth more! So happy we got this cradle.</p>
+
+                </div>
+                
+              </div>
+              <div class="user-cmt">
+                <img class="user-img" src="images/avtar2.png">
+                <div style="padding-left: 10px;">
+                  <p style="margin-bottom: 0px;font-weight: bold;">Eveline Gosok</p>
+                  <span class="fa fa-star checked icon-star"></span>
+                  <span class="fa fa-star checked icon-star"></span>
+                  <span class="fa fa-star checked icon-star"></span>
+                  <span class="fa fa-star checked icon-star"></span>
+                  <span class="fa fa-star checked icon-star"></span>
+                  <p>This chair is an excellent product, that fits well, is well made and safe for the baby. Shipped very fast and came as described..</p>
+
+                </div>
+                
+            </div>
+            <div>
+              <h3>Write A Review</h3>
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label" >Name</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="name">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label" id="email">Email</label>
+                <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="name@example.com">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label" >Comment</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+              <button type="button" class="btn btn-dark btn-lg" onclick="inform()">ADD OPTION</button>
+            </div>
+            </div>
+             
+            
+            
+          </div>
+         
+        </div>
+        
+      </div>
+     </div>
+     <div>
+       <h3>Customers also viewed</h3>
+       <div class="product-card">
+        <div class="card" style="width: 16rem; ">
+          <img src="images/chair3.jpg" class="card-img-top"  style="height: 300px"alt="...">
+          <div class="card-body">
+            <p class="card-text"><b>Thelma</b></p>
+            <p class="card-text">Set of 2 Dining Chairs, Oak and Grey</p>
+            <p class="card-text"><b>$159</b></p>
+          </div>
+          </div>
+          <div class="card" style="width: 16rem;">
+            <img src="images/chair2.jpg" class="card-img-top" style="height: 300px" alt="...">
+            <div class="card-body">
+              <p class="card-text"><b>Stanley</b></p>
+              <p class="card-text">Accent Armchair, Moonlight Blue Velvet</p>
+              <p class="card-text"><b>$399</b></p>
+            </div>
+          </div>
+          <div class="card" style="width: 16rem;">
+            <img src="images/lamp2.jpg" class="card-img-top" style="height: 300px">
+            <div class="card-body">
+              <p class="card-text"><b>Java</b></p>
+              <p class="card-text">Overreach Table Lamp, Natural Rattan</p>
+              <p class="card-text"><b>$75</b></p>
+            </div>
+          </div>
+          <div class="card" style="width: 16rem;">
+            <img src="images/sofa2.jpg" class="card-img-top"  style="height: 300px"alt="...">
+            <div class="card-body">
+              <p class="card-text"><b>Amber</b></p>
+              <p class="card-text">3 Seater Left Hand Facing Chaise End Corner Sofa</p>
+              <p class="card-text"><b>$1.399</b></p>
+            </div>
+          </div>
+    </div>
+     </div>
+    
+    </div>
+  
+    
+  
+    <footer class = "footer bg-light-brown" id = "footer">
+      <div class="bottom_banner_box">
+        <p style="color: white;">Subscribe to our newsletter and receive exclusive offers every week</p>
+        <div class="bottom_banner_buttons">
+          <input type="text" placeholder="Enter your email"></input>
+          <button type="submit" class="butt-sub">Subscribe</button>
+        </div>
+      </div>
+        <div class = "container">
+         
+            <div class = "footer-content ">
+                <div class = "footer-item1">
+                    <h3>Furnish.com</h3>
+                    <p class = "text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam dolorem consequuntur saepe tenetur deserunt harum error quae sint voluptas sunt, autem, totam amet officiis nesciunt eos cupiditate ipsa!</p>
+                    <ul class = "social-links flex">
+                        <li>
+                            <a href = "#" class = "flex"><i class = "fab fa-facebook-f"></i></a>
+                        </li>
+                        <li>
+                            <a href = "#" class = "flex"><i class = "fab fa-instagram"></i></a>
+                        </li>
+                        <li>
+                            <a href = "#" class = "flex"><i class = "fab fa-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a href = "#" class = "flex"><i class = "fab fa-pinterest"></i></a>
+                        </li>
+                    </ul>
+                </div>
+
+                
+                <div class="footer-item2" >
+                    <div class = "footer-item">
+                        <h3>Contact Us</h3>
+                        <p class = "text">123, Cộng Hòa, Tân Bình , TpHCM</p>
+                        <p class = "text">Phone: 0385229609 </p>
+                        <p class = "text">Email: info@furnish.com</p>
+                    </div>
+                    <div class = "footer-item">
+                        <h3>Recent Post</h3>
+                        <ul>
+                            <li class = "text"><a href = "#"><p>Rooms decoration package</p></a></li>
+                            <li class = "text"><a href = "#"><p>Dinning Materials</p></a></li>
+                            <li class = "text"><a href = "#"><p>Event Furniture</p></a></li>
+                        </ul>
+                    </div>
+    
+                    <div class = "footer-item">
+                        <h3>Our Portfolio</h3>
+                        <ul>
+                            <li class = "text"><a href = "#"><p>EFTA Design</p></a></li>
+                            <li class = "text"><a href = "#"><p>County Hall Decoration</p></a></li>
+                            <li class = "text"><a href = "#"><p>SOO Conference</p></a></li>
+                            <li class = "text"><a href = "#"><p>LA Events</p></a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+        <div class = "footer-end bg-dark">
+            <div class = "container-copyright ">
+                <p class = "text text-white text-center">&copy; Copyright 2021. All Right Reserved. Designed and Developed by Kawsar Ahmed</p>
+                <div class = "flex payment">
+                    <img src = "images/pay_1.png">
+                    <img src = "images/pay_2.png">
+                    <img src = "images/pay_3.png">
+                    <img src = "images/pay_4.png">
+                    <img src = "images/pay_5.png">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="Js/scripts.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+      const counterNumber = document.getElementById("counter-number");
+const counterAdd = document.querySelector(".counter-increase");
+const counterMinus = document.querySelector(".counter-descrease");
+
+counterAdd.addEventListener("click", function () {
+let counterValue = parseInt(counterNumber.value);
+   counterValue++;
+   
+   counterNumber.value=counterValue;
+});
+counterMinus.addEventListener("click", function () {
+ let counterValue = parseInt(counterNumber.value);
+if (counterValue <= 0) return 0;
+counterValue--;
+counterNumber.value=counterValue;
+});
+
+//form 
+function inform() {
+   var name = document.getElementById('exampleFormControlInput1');
+   
+    var mail = document.getElementById('exampleFormControlInput2');
+    var comment = document.getElementById('exampleFormControlTextarea1');
+   // confirm(" Tên của bạn là :  " + name.value  + 
+   // "\n Mã thẻ: " + code.value +
+   // "\n Số điện thoại: " + tele.value + 
+   // "\n Email: " + mail.value +
+   // "\n Loại KH: " + e.value +
+   // "\n Mã HĐ: " + bill.value +
+   // "\n Nội dung góp ý: " + "\n " + detail.value 
+   // );
+   alert(" Your name is :  " + name.value +
+   "\n Email: " + mail.value +
+   "\n Your comment: " + comment.value 
+   +"\n Your comment sent sucessfully"
+   )
+   
+}
+    </script>
+</body>
+</html>
